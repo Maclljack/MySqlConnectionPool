@@ -1,0 +1,13 @@
+#数据库连接池的配置文件
+#!!!注意每一行结尾只能是换行符千万别加空格
+ip=127.0.0.1
+port=3306
+username=root
+password=123456
+dbname=mytest1
+initSize=10
+maxSize=1024
+#最大空闲时间单位秒
+maxIdleTime=60
+#连接超时时间单位毫秒
+connectionTimeout=100
